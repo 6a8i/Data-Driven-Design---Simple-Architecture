@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\0 - Service\Data.Driven.Design.API.Models\Data.Driven.Design.API.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="IRepository\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Custumer\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Validations\Custumer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+  </ItemGroup>
+</Project>
